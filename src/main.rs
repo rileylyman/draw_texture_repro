@@ -24,6 +24,7 @@ async fn main() {
 
         set_camera(&Camera2D {
             target: vec2(64.0, 64.0),
+            // zoom: vec2(16.0 / screen_width(), 16.0 / screen_height()),
             zoom: vec2(8.0 / screen_width(), 8.0 / screen_height()),
             ..Default::default()
         });
