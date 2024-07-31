@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "rust-analyzer.diagnostics.styleLints.enable": true,
+    "rust-analyzer.checkOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*": {
+                "underline": false
+            }
+        }
+    }
+}
